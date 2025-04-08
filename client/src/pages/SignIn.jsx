@@ -24,6 +24,7 @@ export default function SignIn() {
   }
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(formData);
     try {
       
       dispatch(signInStart())
